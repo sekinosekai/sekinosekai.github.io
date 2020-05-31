@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "拼单小程序产品需求文档&原型"
+date:   2020-05-31 19:26:21 +0800
+tags: prd prototyping 
+color: rgb(0, 191, 255)
+cover: '../miniprogram.png'
+subtitle: 'prd and prototyping of my mini-program'
+---
+
+## 需求说明
+
+各大节日期间，许多商家会采取多买多送、满减的方式促销。有需求，但需求量达不到优惠门槛的用户通常会选择与他人拼单，从而低价购入商品。但在微信群、qq群等平台上发布商品链接，等待他人拼单的方式效率低，并且发布的消息容易被错过。因此，需要一种更加便捷、灵活、高效的拼单方式，帮助同学们省时、省钱、省力。
+
+## 目标用户
+
+所有有拼单需求的在校学生
+
+## 产品结构
+
+![struct](../miniprogram/struct.png)
+
+## 主业务流程
+
+![flow](../miniprogram/flow.png)
+
+## 原型设计
+
+- 主页
+  - 首页
+  - 搜索页
+  - 商品详情页
+
+<img src="../miniprogram/index.png" alt="index" style="zoom:50%;" />
+
+- 发布页
+  - 商品信息发布
+  - 取货信息发布
+
+<img src="../miniprogram/publish.png" alt="publish" style="zoom:50%;" />
+
+- 个人页
+  - 个人信息页
+  - 我参与的
+  - 我发起的
+
+<img src="../miniprogram/good.png" alt="my" style="zoom:50%;" />
+

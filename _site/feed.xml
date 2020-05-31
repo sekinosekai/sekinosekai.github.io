@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-31T20:11:05+08:00</updated><id>http://localhost:4000/</id><title type="html">seki’s portfolio</title><subtitle>thoughts &amp; promotion</subtitle><author><name>true</name></author><entry><title type="html">拼单小程序产品需求文档&amp;amp;原型</title><link href="http://localhost:4000/2020/05/31/miniprog.html" rel="alternate" type="text/html" title="拼单小程序产品需求文档&amp;原型" /><published>2020-05-31T19:26:21+08:00</published><updated>2020-05-31T19:26:21+08:00</updated><id>http://localhost:4000/2020/05/31/miniprog</id><content type="html" xml:base="http://localhost:4000/2020/05/31/miniprog.html">&lt;h2 id=&quot;需求说明&quot;&gt;需求说明&lt;/h2&gt;
+
+&lt;p&gt;各大节日期间，许多商家会采取多买多送、满减的方式促销。有需求，但需求量达不到优惠门槛的用户通常会选择与他人拼单，从而低价购入商品。但在微信群、qq群等平台上发布商品链接，等待他人拼单的方式效率低，并且发布的消息容易被错过。因此，需要一种更加便捷、灵活、高效的拼单方式，帮助同学们省时、省钱、省力。&lt;/p&gt;
+
+&lt;h2 id=&quot;目标用户&quot;&gt;目标用户&lt;/h2&gt;
+
+&lt;p&gt;所有有拼单需求的在校学生&lt;/p&gt;
+
+&lt;h2 id=&quot;产品结构&quot;&gt;产品结构&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;../miniprogram/struct.png&quot; alt=&quot;struct&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;主业务流程&quot;&gt;主业务流程&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;../miniprogram/flow.png&quot; alt=&quot;flow&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;原型设计&quot;&gt;原型设计&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;主页
+    &lt;ul&gt;
+      &lt;li&gt;首页&lt;/li&gt;
+      &lt;li&gt;搜索页&lt;/li&gt;
+      &lt;li&gt;商品详情页&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../miniprogram/index.png&quot; alt=&quot;index&quot; style=&quot;zoom:50%;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;发布页
+    &lt;ul&gt;
+      &lt;li&gt;商品信息发布&lt;/li&gt;
+      &lt;li&gt;取货信息发布&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../miniprogram/publish.png&quot; alt=&quot;publish&quot; style=&quot;zoom:50%;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;个人页
+    &lt;ul&gt;
+      &lt;li&gt;个人信息页&lt;/li&gt;
+      &lt;li&gt;我参与的&lt;/li&gt;
+      &lt;li&gt;我发起的&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../miniprogram/good.png&quot; alt=&quot;my&quot; style=&quot;zoom:50%;&quot; /&gt;&lt;/p&gt;</content><author><name>true</name></author><category term="prd" /><category term="prototyping" /><summary type="html">需求说明</summary></entry><entry><title type="html">在macOS上安装Jekyll时遇到的问题</title><link href="http://localhost:4000/2020/05/30/firstblog.html" rel="alternate" type="text/html" title="在macOS上安装Jekyll时遇到的问题" /><published>2020-05-30T17:26:21+08:00</published><updated>2020-05-30T17:26:21+08:00</updated><id>http://localhost:4000/2020/05/30/firstblog</id><content type="html" xml:base="http://localhost:4000/2020/05/30/firstblog.html">&lt;p&gt;第一次搭博客，留个记录。&lt;/p&gt;
+
+&lt;h3 id=&quot;错误1&quot;&gt;错误1&lt;/h3&gt;
+
+&lt;p&gt;安装Jekyll的分页插件：&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install jekyll-paginate&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;报错，权限问题&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ERROR:  While executing gem … (Gem::FilePermissionError) You don’t have write permissions for the /Library/Ruby/Gems/2.6.0 directory.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;查询之后发现是mac自带的ruby的问题，该文件夹只允许root用户操作。在前面加上&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo&lt;/code&gt;后问题解决。&lt;/p&gt;
+
+&lt;h3 id=&quot;错误2&quot;&gt;错误2&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll server&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;报错，缺少包&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Could not find public_suffix-3.0.2 in any of the sources (Bundler::GemNotFound)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;运行&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install --path vendor/cache&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;ps: 由于某种众所周知原因，在国内使用bundle install非常慢，需要把gem的源换成RubyChina的：&lt;/p&gt;
+
+&lt;p&gt;gem sources –add https://gems.ruby-china.com/ –remove https://rubygems.org/&lt;/p&gt;
+
+&lt;h3 id=&quot;错误3&quot;&gt;错误3&lt;/h3&gt;
+
+&lt;p&gt;再次运行&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll server&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;报错&lt;/p&gt;
+
+&lt;p&gt;You have already activated public_suffix 4.0.5, but your Gemfile requires public_suffix 3.0.2. Prepending &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec&lt;/code&gt; to your command may solve this. (Gem::LoadError)&lt;/p&gt;
+
+&lt;p&gt;按照提示，改成&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll server&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;问题解决！！！&lt;/p&gt;</content><author><name>true</name></author><category term="jekyll" /><summary type="html">第一次搭博客，留个记录。</summary></entry></feed>
