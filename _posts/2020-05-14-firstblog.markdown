@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "在macOS上安装Jekyll时遇到的问题"
-date:   2020-05-30 17:26:21 +0800
+date:   2020-05-14 17:26:21 +0800
 tags: jekyll
 color: rgb(0, 191, 255)
 cover: '../assets/jekylltry.png'
