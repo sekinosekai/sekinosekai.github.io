@@ -79,6 +79,8 @@ subtitle: 'PRD for mini-program'
 
 ## 原型设计
 
+<a href="https://sekinosekai.github.io/miniproto/index.html" target="_blank">查看在线演示</a><br />
+
 - 主页
   - 首页
   - 搜索页

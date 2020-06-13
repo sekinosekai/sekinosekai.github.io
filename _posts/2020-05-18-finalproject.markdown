@@ -12,7 +12,7 @@ subtitle: 'final project 2019'
 <p>Thanks professors and friends from TUAT. I appreciate the time they spent helping me with the project and helping me accommodate myself to the new life in Tokyo.</p>
 <p>Of course, I would like to give special thanks to my supervisor Marie! Thank you for providing the opportunity for me :)</p>
 
-Check the Post Paper published on <a href="https://dl.acm.org/doi/10.1145/3349537.3352764" target="_blank">2019 Human-Agent Interaction</a>,<br />
+Check the Poster Paper published on <a href="https://dl.acm.org/doi/10.1145/3349537.3352764" target="_blank">2019 Human-Agent Interaction</a>,<br />
 
 and my Final Viva PowerPoint:
 
